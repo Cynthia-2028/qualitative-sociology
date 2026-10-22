@@ -1,0 +1,10 @@
+# 内置权威原著 PDF：仅供本地使用，不入库（版权保护书籍，不做公开分发）
+references/SAGE-Handbook-of-Qualitative-Research-6e-Denzin-Lincoln.pdf
+
+# 打包产物
+dist/
+*.zip
+
+# 系统文件
+.DS_Store
+Thumbs.db

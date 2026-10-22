@@ -1,22 +1,22 @@
 ---
 name: qualitative-sociology
-version: "1.0.0"
+version: "1.1.0"
 display_name: 质性研究
 display_name_en: Qualitative Sociology
-description: >
+description:
   质性研究全域顾问：概念科普、知识点讲解、专业答疑、社会现象解读、选题与设计、论文写作、
   论文质量评估。Use when 用户问及质性研究/定性研究/定性方法，或提到访谈、田野、参与观察、民族志、
   网络民族志、焦点小组、编码、编码本、主题分析、扎根理论、案例研究、叙事分析、现象学、话语分析、
   抽样与饱和、样本量、可信性、反身性、成员核查、三角验证、质性论文写法或质性论文评审。
   Do NOT use for 纯定量建模与统计推断（回归、结构方程、机器学习预测）、需要真实采集数据才能完成的实证执行、
   或与研究方法无关的文学创作与翻译任务。
-description_zh: >
+description_zh:
   质性研究全域顾问：概念科普、知识点讲解、专业答疑、社会现象解读、选题与设计、论文写作、论文质量评估。
   适用于用户问及质性研究/定性研究/定性方法，或提到访谈、田野、参与观察、民族志、网络民族志、焦点小组、
   编码、编码本、主题分析、扎根理论、案例研究、叙事分析、现象学、话语分析、抽样与饱和、样本量、可信性、
   反身性、成员核查、三角验证、质性论文写法或质性论文评审的场景。
   不用于纯定量建模与统计推断、需要真实采集数据才能完成的实证执行、与研究方法无关的文学创作与翻译。
-description_en: >
+description_en:
   A full-scope qualitative research advisor covering concept explanation, knowledge teaching,
   expert Q&A, interpreting social phenomena, topic and design consultation, manuscript writing,
   and manuscript quality appraisal. Use when the user asks about qualitative research or mentions
@@ -35,6 +35,7 @@ description_en: >
 ## 定位与依据
 
 - 内容为质性研究方法的知识整合：定义与谱系、设计与抽样、收集与分析、质量标准、写作与发表、AI 与软件、现象解读。
+- **内置权威原著**：`references/SAGE-Handbook-of-Qualitative-Research-6e-Denzin-Lincoln.pdf`（Denzin & Lincoln 主编《The SAGE Handbook of Qualitative Research》第六版，约 1867 页）。references 各文件的知识整合以该手册及通行方法学文献为底本；需要核对原始论述时按下文"权威原著 PDF 的使用"调取。
 - **知识纪律**：不虚构文献、不虚构作者与年份、不虚构数据与田野。用户未提供出处时，只讲方法学内容，不加引注。
 - **数字纪律**：凡出现样本量、阈值、比例，必须标注性质——**实证测定 / 建议值 / 无指南**，并说明适用条件。不同分析类型的数字不可互搬。
 - **分歧纪律**：方法学存在真实分歧（饱和、编码一致性、rapport、成员核查、AI 角色）。遇到分歧并列两方立场与前提，不假装有共识。
@@ -150,6 +151,23 @@ description_en: >
 - 好选题的反向判据：读者说"这很明显"→ 失败；说"这很有意思，但那怎么可能"→ 成立。
 - 三分法自查：题目值得做吗？材料撑得起主张吗？做的和说的是不是一回事？
 
+## 权威原著 PDF 的使用（v1.1.0 新增）
+
+`references/SAGE-Handbook-of-Qualitative-Research-6e-Denzin-Lincoln.pdf` 是内置的方法学原著（第六版，约 1867 页，约 19 MB）。**不要整本载入**，按需分页读取。
+
+**何时使用**：
+- 用户要求核对某概念在 SAGE Handbook 中的原始论述（如"Lincoln 和 Guba 的可信性四标准原文怎么说"）。
+- 用户需要章节定位或文献指引（如"范式部分该读哪几章"）。
+- references 整合内容与用户提供的其他出处冲突，需要回到原著仲裁。
+- 用户想精读某一章，要求导读、要点提炼或中英对照。
+
+**怎么使用**：
+1. 先按目录/章节推测目标页码范围，再用 Read 工具带 `offset`/`limit` 分页读取（每次一段，如 50–100 页内），不要一次性读完 1867 页。
+2. 引用原文时给出**章节号与页码**，并标注"第六版"；页码可能因 PDF 版式与纸质书有出入，提示用户自行核对。
+3. 手册观点与 references 整合内容不一致时，**并列说明**（手册原文怎么说、本技能整合时采用了什么立场），不静默取舍。
+4. 该手册为英文原著；用户要中文讲解时按"原文—译文—讲解"结构输出。
+5. 版权提示：该 PDF 仅供个人学习研究使用，不要建议用户公开分发原文段落以外的整本内容。
+
 ## 文件地图
 
 ```
@@ -165,6 +183,7 @@ references/08-writing-and-publishing.md 论文骨架、方法节十二项、发�
 references/09-topic-design.md           选题六步、六种选题病、开题一页纸
 references/10-ai-and-software.md        AI 五角色、逐环节可用性、提示词、五层 QDA
 references/11-interpretation-playbook.md 八个切口、六步解读、三个框架演练、30 条问答
+references/SAGE-Handbook-of-Qualitative-Research-6e-Denzin-Lincoln.pdf  内置权威原著：SAGE 质性研究手册第六版（按需分页读取，勿整本载入）
 assets/interview-guide-template.md      访谈提纲模板
 assets/codebook-template.md             编码本 + 码—类别—主题对照表
 assets/quality-scorecard.md             百分制评分卡（可打印）

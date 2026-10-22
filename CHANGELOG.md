@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## v1.1.0 — 2026-10-22
+
+**内置权威原著**
+- `references/SAGE-Handbook-of-Qualitative-Research-6e-Denzin-Lincoln.pdf`：Denzin & Lincoln 主编《The SAGE Handbook of Qualitative Research》第六版 PDF（约 1867 页），作为 references 知识整合的底本原著。
+- `SKILL.md` 新增"权威原著 PDF 的使用"一节：何时调取（核对原始论述、章节定位、出处仲裁、精读导读）、怎么调取（分页读取，勿整本载入；引用须带章节与页码并标注版本）、与 references 内容冲突时并列说明、版权提示。
+- `README.md` 目录结构与安装说明同步更新；版本号升至 1.1.0。
+
 ## v1.0.0 — 2026-10-21
 
 首个版本。

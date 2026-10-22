@@ -39,7 +39,8 @@ qualitative-sociology/
 │   ├── 08-writing-and-publishing.md       # 论文骨架、方法节十二项、发现与讨论、审稿应对
 │   ├── 09-topic-design.md                 # 选题六步、六种选题病、开题一页纸
 │   ├── 10-ai-and-software.md              # AI 五角色、逐环节可用性、提示词骨架、五层 QDA
-│   └── 11-interpretation-playbook.md      # 八个解读切口、六步解读、三个框架演练、30 条高频问答
+│   ├── 11-interpretation-playbook.md      # 八个解读切口、六步解读、三个框架演练、30 条高频问答
+│   └── SAGE-Handbook-of-Qualitative-Research-6e-Denzin-Lincoln.pdf  # 内置权威原著：SAGE 质性研究手册第六版（v1.1.0 新增，按需分页读取）
 ├── assets/
 │   ├── interview-guide-template.md        # 访谈提纲模板（含追问句与访谈后 24 小时清单）
 │   ├── codebook-template.md               # 编码本 + 码—类别—主题对照表
@@ -56,7 +57,9 @@ git clone https://github.com/Cynthia-2028/qualitative-sociology.git \
   ~/.workbuddy/skills/qualitative-sociology
 ```
 
-也可以直接下载 Release 里的 `qualitative-sociology-v1.0.0.zip`，解压到技能目录。
+也可以直接下载 Release 里的 `qualitative-sociology-v1.1.0.zip`，解压到技能目录。
+
+> **v1.1.0 说明**：本版本在 `references/` 内置了 Denzin & Lincoln 主编《The SAGE Handbook of Qualitative Research》（第六版，约 1867 页）PDF 原著，供核对原始论述、章节定位与精读导读使用。该 PDF 仅供个人学习研究，请勿二次分发。
 
 ## 怎么用
 
