@@ -4,7 +4,7 @@
 
 质性研究的门槛不在"会不会做访谈"，而在**判断**：这个问题该用哪种取向？我抽的这些人能不能回答它？我写的是主题还是话题？评审说"只是描述"，我该补什么？这个技能把这些判断拆成可核对的判据，并把七类常见需求接到各自的工序上。
 
-## 它覆盖七种场景
+## 它覆盖八种场景
 
 | 场景 | 用户说的话 | 交付物 |
 |---|---|---|
@@ -15,6 +15,7 @@
 | **选题设计** | "我想研究 X 怎么做""这个题目能做质性吗" | 六步工序 + 开题一页纸 |
 | **论文写作** | "方法节写什么""结果部分怎么组织" | 结构模板 + 方法节十二必报项 + 逐段改法 |
 | **质量评估** | "这篇论文好不好""帮我打分" | 百分制评分（九维 + 硬伤扣分）+ P0/P1/P2 清单 |
+| **溯因与理论建构** | "我的资料能做什么理论""审稿说我只有描述没有理论贡献" | 惊讶定位 → 地图/罗盘清单 → 溯因回路 → 下一步工序 |
 
 ## 它和"方法学教材摘要"的区别
 
@@ -40,7 +41,9 @@ qualitative-sociology/
 │   ├── 09-topic-design.md                 # 选题六步、六种选题病、开题一页纸
 │   ├── 10-ai-and-software.md              # AI 五角色、逐环节可用性、提示词骨架、五层 QDA
 │   ├── 11-interpretation-playbook.md      # 八个解读切口、六步解读、三个框架演练、30 条高频问答
-│   └── SAGE-Handbook-of-Qualitative-Research-6e-Denzin-Lincoln.pdf  # 内置权威原著：SAGE 质性研究手册第六版（v1.1.0 新增，按需分页读取）
+│   ├── 12-abductive-analysis.md           # 溯因全书整合：三种推理、四个条件、地图与罗盘、散焦与聚焦、五问编码、索引个案、三类张力、修辞性溯因、六张工作纸
+│   ├── SAGE-Handbook-of-Qualitative-Research-6e-Denzin-Lincoln.pdf  # 内置原著一：SAGE 质性研究手册第六版（v1.1.0 新增，按需分页读取）
+│   └── Timmermans-Tavory-2022-Data-Analysis-in-Qualitative-Research.pdf  # 内置原著二：溯因分析（v1.2.0 新增，PDF 页＝书页 + 8）
 ├── assets/
 │   ├── interview-guide-template.md        # 访谈提纲模板（含追问句与访谈后 24 小时清单）
 │   ├── codebook-template.md               # 编码本 + 码—类别—主题对照表
@@ -57,9 +60,13 @@ git clone https://github.com/Cynthia-2028/qualitative-sociology.git \
   ~/.workbuddy/skills/qualitative-sociology
 ```
 
-也可以直接下载 Release 里的 `qualitative-sociology-v1.1.0.zip`，解压到技能目录。
+也可以直接下载 Release 里的 `qualitative-sociology-v1.2.0.zip`，解压到技能目录。
 
-> **v1.1.0 说明**：本版本在 `references/` 内置了 Denzin & Lincoln 主编《The SAGE Handbook of Qualitative Research》（第六版，约 1867 页）PDF 原著，供核对原始论述、章节定位与精读导读使用。该 PDF 仅供个人学习研究，请勿二次分发。
+> **v1.1.0 说明**：支持把 Denzin & Lincoln 主编《The SAGE Handbook of Qualitative Research》（第六版，约 1867 页）PDF 原著放入 `references/`，供核对原始论述、章节定位与精读导读使用。
+>
+> **v1.2.0 说明**：新增 `references/12-abductive-analysis.md`，把"溯因与理论建构"做成一整条可执行工序（八条工作流之 H）；同时支持把 Timmermans & Tavory《Data Analysis in Qualitative Research: Theorizing with Abductive Analysis》（2022）PDF 原著放入 `references/` 供原文核对。
+
+> **关于两本原著 PDF**：两本均为版权保护书籍，**不随仓库与发布包分发**（见 `.gitignore`）。自行取得后放入 `references/`，并按 `SKILL.md` 的"内置原著 PDF 的使用"分页调取。**PDF 缺失不影响技能运行**——`references/` 里的整合文件是自足的，PDF 只用于核对原文与精读。请勿二次分发原著 PDF。
 
 ## 怎么用
 
