@@ -1,5 +1,20 @@
 # CHANGELOG
 
+## v1.3.0 — 2026-11-03
+
+**新增：内置文献库（24 篇 PDF）与两大方向的知识整合**
+- `references/library/thematic-analysis/`（15 篇）+ `references/library/abduction/`（9 篇）：来自用户本地"主题分析"与"溯因分析"两个文献目录，题录全部从 PDF 原文提取核验（作者/年份/期刊/DOI），非凭记忆著录。2022 年 Timmermans & Tavory 一书已内置，library 内不重复存放。
+- `references/06-thematic-analysis.md` 新增**第八节（内置文献库与延伸整合）**：
+  - 15 篇文献总表（题录 + 一句话价值 + 调取时机）与 Braun & Clarke 2006→2019→2022 立场演进提醒。
+  - 十项常见问题（Braun & Clarke 2020，与本文件 4.2 的二十问同源）、RTARG 报告规范（2024：guidelines 非 checklist，与 COREQ/SRQR 的关系与替换口径）、饱和批判的论证细节（2019 QRSEH，含答辩口径）。
+  - 三种流程变体的归属与"判据不跨派互搬"（Naeem 2023 六步、Castleberry & Nolen 2018 五步九条、Fereday & Muir-Cochrane 2006 混合编码）、Framework Method（Gale et al. 2013）、内容分析边界（Vaismoradi 2013）、"神圣方法"批判（2021 CPR）、AI 辅助主题分析（Christou 2024）、2022《Practical Guide》章节地图。
+- `references/12-abductive-analysis.md` 新增**第十四节（溯因文献库）**：
+  - 9 篇文献总表；溯因编码三步骤与"码方程"（Vila-Henninger et al. 2024 SMR）；2012 论文 / 2014 书 / 2022 书三套表述的时间线与引用防混用表；大语料与二手资料的溯因（breadth-and-depth 方法 Davidson 2019 + 理论逻辑 Edwards 2021 的回溯性 retroduction）；定量/计算溯因（Brandt & Timmermans 2021）；分析性溯因（Halpin & Richard 2021）；四条实践原则（van Hulst & Visser 2025 PAR）；Abrutyn 2026《Imagining an Affective Sociology》标注为"理论想象力范例"（非溯因方法论文）。
+  - 明示张力：2022 书对二手/大样本资料的批评 vs 溯因编码/breadth-and-depth 的大语料团队处境，按处境并列推荐。
+- `SKILL.md`：版本号 1.3.0；"定位与依据"增补文献库说明；关键词直达表补入 RTARG/COREQ/SRQR/质量十问（`06`）与码方程/分析性溯因/retroduction/big qual/二手质性资料/breadth-and-depth（`12`）；"内置原著 PDF 的使用"扩为两本原著 + 24 篇文献库（含页码规则）；文件地图与 Gotchas 同步（新增三条：引 Braun & Clarke 标对年份、RTARG 非 checklist、码方程非 T&T 概念、大语料溯因与 2022 书批评并列）。
+- `README.md`：目录结构与版本说明同步。
+- `.gitignore`：新增 `references/library/`（文献库 PDF 仅供个人学习，不入库不分发）。
+
 ## v1.2.0 — 2026-11-01
 
 **新增：溯因与理论建构（整条工序）**

@@ -2,6 +2,9 @@
 references/SAGE-Handbook-of-Qualitative-Research-6e-Denzin-Lincoln.pdf
 references/Timmermans-Tavory-2022-Data-Analysis-in-Qualitative-Research.pdf
 
+# 内置文献库（v1.3.0）：个人学习用 PDF，不入库不分发
+references/library/
+
 # 打包产物
 dist/
 *.zip

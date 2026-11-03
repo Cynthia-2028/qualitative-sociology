@@ -1,6 +1,6 @@
 ---
 name: qualitative-sociology
-version: "1.2.0"
+version: "1.3.0"
 display_name: 质性研究
 display_name_en: Qualitative Sociology
 description:
@@ -40,6 +40,9 @@ description_en:
   - `references/SAGE-Handbook-of-Qualitative-Research-6e-Denzin-Lincoln.pdf`（Denzin & Lincoln 主编《The SAGE Handbook of Qualitative Research》第六版，约 1867 页）——方法学全景的底本。
   - `references/Timmermans-Tavory-2022-Data-Analysis-in-Qualitative-Research.pdf`（Timmermans & Tavory《Data Analysis in Qualitative Research: Theorizing with Abductive Analysis》，2022，164 页正文）——**溯因分析与理论建构的底本**，对应 `references/12-abductive-analysis.md` 的全书整合。
   - references 各文件的知识整合以这两本原著及通行方法学文献为底本；需要核对原始论述时按下文"内置原著 PDF 的使用"调取。
+- **内置文献库（v1.3.0 起含 24 篇，均已核验题录）**：
+  - `references/library/thematic-analysis/`（15 篇）：主题分析核心文献——Braun & Clarke 2006 奠基论文、2022《Practical Guide》全书、质量十问与二十问（2020）、RTARG 报告规范（2024）、饱和批判（2019）、方法对比（2021）、工作示例（Byrne 2022）、Framework Method（Gale et al. 2013）、混合编码（Fereday & Muir-Cochrane 2006）、AI 主题分析（Christou 2024）等。总表与整合见 `06-thematic-analysis.md` 第八节。
+  - `references/library/abduction/`（9 篇）：溯因分析核心文献——Tavory & Timmermans 2014 专著、2012 奠基论文、溯因编码与码方程（Vila-Henninger et al. 2024）、四条实践原则（van Hulst & Visser 2025）、分析性溯因（Halpin & Richard 2021）、定量溯因（Brandt & Timmermans 2021）、big qual breadth-and-depth 方法（Davidson et al. 2019；Edwards et al. 2021）等。总表与整合见 `12-abductive-analysis.md` 第十四节。
 - **知识纪律**：不虚构文献、不虚构作者与年份、不虚构数据与田野。用户未提供出处时，只讲方法学内容，不加引注。
 - **数字纪律**：凡出现样本量、阈值、比例，必须标注性质——**实证测定 / 建议值 / 无指南**，并说明适用条件。不同分析类型的数字不可互搬。
 - **分歧纪律**：方法学存在真实分歧（饱和、编码一致性、rapport、成员核查、AI 角色）。遇到分歧并列两方立场与前提，不假装有共识。
@@ -65,8 +68,8 @@ description_en:
 |---|---|
 | 访谈、提纲、追问、沉默、rapport、线上访谈、田野笔记、民族志、网络民族志 | `04` |
 | 编码、编码本、备忘录、矩阵、类别、GOSI、从码到主题 | `05` |
-| 溯因、abduction、惊讶、意外、索引个案、初始观察集、地图与罗盘、实质理论、语法理论、张力、结构里的笑话、修辞性溯因、理论贡献、编码在行动中 | `12` |
-| 主题分析、主题、话题、三派、六阶段、质检清单 | `06` |
+| 溯因、abduction、惊讶、意外、索引个案、初始观察集、地图与罗盘、实质理论、语法理论、张力、结构里的笑话、修辞性溯因、理论贡献、编码在行动中、码方程、分析性溯因、回溯性 retroduction、big qual、二手质性资料、breadth-and-depth | `12` |
+| 主题分析、主题、话题、三派、六阶段、质检清单、报告规范、RTARG、COREQ、SRQR、质量十问 | `06` |
 | 抽样、样本量、饱和、信息力量、抽多少、抽到何时停 | `03` |
 | 范式、取向、方法选择、方法一致性、案例研究、叙事、现象学、话语分析 | `02` |
 | 质量标准、可信性、反身性、三角验证、成员核查、伦理、评分 | `07` |
@@ -171,12 +174,14 @@ description_en:
 - 索引个案自查（`12`）：能不能用一句话说清它代表什么？若只能用一个例子说明主题，是不是它？
 - 论证自查（`12`）：结论若是"我们识别出三类／五个主题"，**还在论证之前**——分类学不是论点。
 
-## 内置原著 PDF 的使用（v1.2.0 起含两本）
+## 内置原著 PDF 的使用（v1.3.0 起含两本原著 + 24 篇文献库）
 
 | PDF | 是什么 | 什么时候调 | 页码规则 |
 |---|---|---|---|
 | `references/SAGE-Handbook-of-Qualitative-Research-6e-Denzin-Lincoln.pdf` | SAGE 质性研究手册第六版，约 1867 页，约 19 MB | 方法学全景、范式与质量标准的原始论述、章节定位 | 引章节号 + 页码，标注"第六版" |
 | `references/Timmermans-Tavory-2022-Data-Analysis-in-Qualitative-Research.pdf` | Timmermans & Tavory《质性研究中的数据分析：用溯因分析做理论》，2022，正文 164 页 + 附录 | 溯因、地图/罗盘、索引个案、张力、修辞性溯因的原文核对与精读 | **PDF 页＝书页 + 8**；引书页码并标"2022 年版" |
+| `references/library/thematic-analysis/`（15 篇） | 主题分析核心文献（总表见 `06` 第八节 8.1） | 按 8.1 表"什么时候调"列定位后单篇调取 | 引期刊论文给作者+年份+DOI 或卷期页；引 Braun & Clarke 2022 书给章号+页码并提醒核对偏移 |
+| `references/library/abduction/`（9 篇） | 溯因分析核心文献（总表见 `12` 第十四节 14.1） | 按 14.1 表定位后单篇调取 | 期刊论文给作者+年份+卷期页；2014 书给章号 |
 
 **何时使用**：
 - 用户要求核对某概念在原书中的原始论述（如"Peirce 的三段论原话怎么写的""Douglas 关于'结构里的笑话'原句是什么"）。
@@ -213,6 +218,8 @@ references/11-interpretation-playbook.md 八个切口、六步解读、三个框
 references/12-abductive-analysis.md    溯因全书整合：三种推理、四个条件、地图与罗盘、散焦与聚焦、五问编码、索引个案、三类张力、修辞性溯因、六张工作纸
 references/SAGE-Handbook-of-Qualitative-Research-6e-Denzin-Lincoln.pdf  内置原著一：SAGE 质性研究手册第六版（按需分页读取，勿整本载入）
 references/Timmermans-Tavory-2022-Data-Analysis-in-Qualitative-Research.pdf  内置原著二：溯因分析（2022，PDF 页＝书页 + 8）
+references/library/thematic-analysis/    主题分析文献库 15 篇（总表与整合：06 第八节）
+references/library/abduction/            溯因分析文献库 9 篇（总表与整合：12 第十四节）
 assets/interview-guide-template.md      访谈提纲模板
 assets/codebook-template.md             编码本 + 码—类别—主题对照表
 assets/quality-scorecard.md             百分制评分卡（可打印）
@@ -225,6 +232,10 @@ scripts/quality_scan.py                 报告要素扫描（关键词级，只�
 - **不要把"主题分析"当成一个方法**。它至少分三派；不说明哪一派，后面所有建议都可能互相打架。用户说"我做主题分析"时，先问一句"你走的是哪一派/是否用编码本与一致率"。
 - **不要把"饱和"当通用判据**。反身性取向无最小样本量；用主题饱和的 9 次去支撑理论结论，是量级错误。
 - **不要跨类型搬样本量数字**。访谈数、焦点小组场次、自由列举份数、数据文件数、案例数是不同的 n。
+- **引用 Braun & Clarke 要标对年份**。2006（奠基六阶段）、2019（命名"反身性 TA"、饱和批判）、2020（质量十问与二十问）、2022（《Practical Guide》与最新立场）内容不同；描述当代立场引 2019/2022，不要拿 2006 代表现状。
+- **RTARG 是 guidelines 不是 checklist**。不要建议用户机械逐项打勾；与 COREQ/SRQR 的替换要向期刊说明理由（`06` 8.3）。
+- **"码方程"不是 Timmermans & Tavory 的概念**。它是 Vila-Henninger et al. 2024 的工具化发明，引用时勿张冠李戴（`12` 14.2）。
+- **大语料溯因与 2022 书的批评要并列**。2022 书批评编码软件与二手/大样本资料；breadth-and-depth、溯因编码恰恰服务大语料/团队处境。先问用户处境（单人多份深访 vs 团队大语料）再推荐，不得单方面推销。
 - **不要用编码者间信度评价反身性取向**。这不是严格与否，是范畴错误；先问取向再谈判据。
 - **不要接受"主题浮现"的叙述**，也不要在写作建议里使用它。
 - **不要把"三角验证"说成能证明结论正确**。它提升深度与说服力，不提供客观性背书。

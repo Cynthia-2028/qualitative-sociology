@@ -35,15 +35,18 @@ qualitative-sociology/
 │   ├── 03-sampling-sample-size.md         # 六种抽样、十类样本量对照、五种饱和、申报四要素
 │   ├── 04-interview-fieldwork.md          # 访谈全流程与话术库、沉默三型、rapport 三重问题、田野笔记、网络民族志
 │   ├── 05-coding-analysis.md              # 29 种第一轮编码、6 种第二轮、编码本、备忘录、矩阵、溯因、GOSI
-│   ├── 06-thematic-analysis.md            # 三派分野、六阶段、15 项清单、20 问评审工具
+│   ├── 06-thematic-analysis.md            # 三派分野、六阶段、15 项清单、20 问评审工具、主题分析文献库整合（v1.3.0）
 │   ├── 07-quality-evaluation.md           # 八项标准、百分制评分表、四检验、评审意见写法
 │   ├── 08-writing-and-publishing.md       # 论文骨架、方法节十二项、发现与讨论、审稿应对
 │   ├── 09-topic-design.md                 # 选题六步、六种选题病、开题一页纸
 │   ├── 10-ai-and-software.md              # AI 五角色、逐环节可用性、提示词骨架、五层 QDA
 │   ├── 11-interpretation-playbook.md      # 八个解读切口、六步解读、三个框架演练、30 条高频问答
-│   ├── 12-abductive-analysis.md           # 溯因全书整合：三种推理、四个条件、地图与罗盘、散焦与聚焦、五问编码、索引个案、三类张力、修辞性溯因、六张工作纸
+│   ├── 12-abductive-analysis.md           # 溯因全书整合：三种推理、四个条件、地图与罗盘、散焦与聚焦、五问编码、索引个案、三类张力、修辞性溯因、六张工作纸、溯因文献库整合（v1.3.0）
 │   ├── SAGE-Handbook-of-Qualitative-Research-6e-Denzin-Lincoln.pdf  # 内置原著一：SAGE 质性研究手册第六版（v1.1.0 新增，按需分页读取）
-│   └── Timmermans-Tavory-2022-Data-Analysis-in-Qualitative-Research.pdf  # 内置原著二：溯因分析（v1.2.0 新增，PDF 页＝书页 + 8）
+│   ├── Timmermans-Tavory-2022-Data-Analysis-in-Qualitative-Research.pdf  # 内置原著二：溯因分析（v1.2.0 新增，PDF 页＝书页 + 8）
+│   └── library/                           # 内置文献库（v1.3.0 新增，24 篇 PDF，题录已核验）
+│       ├── thematic-analysis/             # 主题分析 15 篇：Braun & Clarke 2006/2019/2020/2021/2022、RTARG 2024、Byrne 2022、Gale 2013、Fereday & Muir-Cochrane 2006 等
+│       └── abduction/                     # 溯因 9 篇：Tavory & Timmermans 2014、Timmermans & Tavory 2012、Vila-Henninger 2024、van Hulst & Visser 2025、Brandt & Timmermans 2021 等
 ├── assets/
 │   ├── interview-guide-template.md        # 访谈提纲模板（含追问句与访谈后 24 小时清单）
 │   ├── codebook-template.md               # 编码本 + 码—类别—主题对照表
@@ -60,13 +63,15 @@ git clone https://github.com/Cynthia-2028/qualitative-sociology.git \
   ~/.workbuddy/skills/qualitative-sociology
 ```
 
-也可以直接下载 Release 里的 `qualitative-sociology-v1.2.0.zip`，解压到技能目录。
+也可以直接下载 Release 里的 `qualitative-sociology-v1.3.0.zip`，解压到技能目录。
 
 > **v1.1.0 说明**：支持把 Denzin & Lincoln 主编《The SAGE Handbook of Qualitative Research》（第六版，约 1867 页）PDF 原著放入 `references/`，供核对原始论述、章节定位与精读导读使用。
 >
 > **v1.2.0 说明**：新增 `references/12-abductive-analysis.md`，把"溯因与理论建构"做成一整条可执行工序（八条工作流之 H）；同时支持把 Timmermans & Tavory《Data Analysis in Qualitative Research: Theorizing with Abductive Analysis》（2022）PDF 原著放入 `references/` 供原文核对。
+>
+> **v1.3.0 说明**：新增 `references/library/` 内置文献库（主题分析 15 篇 + 溯因 9 篇，均为个人学习用 PDF，不入库不分发），并在 `06` 第八节、`12` 第十四节给出题录总表与知识整合：质量十问、RTARG 报告规范、饱和批判、溯因编码与码方程、分析性溯因、定量溯因、big qual breadth-and-depth 方法等。
 
-> **关于两本原著 PDF**：两本均为版权保护书籍，**不随仓库与发布包分发**（见 `.gitignore`）。自行取得后放入 `references/`，并按 `SKILL.md` 的"内置原著 PDF 的使用"分页调取。**PDF 缺失不影响技能运行**——`references/` 里的整合文件是自足的，PDF 只用于核对原文与精读。请勿二次分发原著 PDF。
+> **关于文献库 PDF**：两本原著与文献库期刊论文均**不随仓库与发布包分发**（见 `.gitignore`）。文献库 PDF 仅供个人学习研究，请勿二次分发。**PDF 缺失不影响技能运行**——`references/` 里的整合文件是自足的，PDF 只用于核对原文与精读。
 
 ## 怎么用
 
